@@ -26,7 +26,8 @@ run curl -Lo elixir.zip https://github.com/elixir-lang/elixir/releases/download/
 run unzip -d /home/vagrant/bin/elixir elixir.zip
 
 # Configure
-echo 'export PATH=$HOME/bin/elixir/bin:$PATH' >> /home/vagrant/.bashrc
+echo "Updating PATH..."
+sed -i '1i export PATH=$HOME/bin/elixir/bin:$PATH' /home/vagrant/.bashrc
 
 # Done!
 echo "Complete!"
