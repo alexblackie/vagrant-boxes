@@ -10,6 +10,7 @@ run() {
 
 # Deps
 echo "Installing Dependencies..."
+run sudo apt-get update
 run sudo apt-get install -y unzip curl
 run mkdir /home/vagrant/bin
 
