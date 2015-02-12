@@ -22,7 +22,7 @@ run sudo apt-get install -y erlang
 
 # Elixir
 echo "Installing Elixir..."
-run curl -Lo elixir.zip https://github.com/elixir-lang/elixir/releases/download/v1.0.2/Precompiled.zip
+run curl -Lo elixir.zip https://github.com/elixir-lang/elixir/releases/download/v1.0.3/Precompiled.zip
 run unzip -d /home/vagrant/bin/elixir elixir.zip
 
 # Configure
